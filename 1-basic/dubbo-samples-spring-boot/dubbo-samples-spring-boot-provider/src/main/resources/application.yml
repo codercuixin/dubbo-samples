@@ -20,6 +20,7 @@ dubbo:
       logger: slf4j
   protocol:
     name: tri
+    host: 127.0.0.1
     port: 50052
   registry:
     address: nacos://${nacos.address:127.0.0.1}:8848?username=nacos&password=nacos
